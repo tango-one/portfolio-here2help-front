@@ -1,0 +1,36 @@
+.navbar__wrapper {
+}
+
+.navbar__wrapper li {
+  padding-inline: 0.5rem;
+}
+
+.navbar__wrapper li a {
+  color: var(--text-color) !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navbar__wrapper li a:hover {
+  color: var(--hover-color) !important;
+}
+
+.navbar__btn {
+  color: var(--text-light-color) !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-inline: 0.5rem;
+  cursor: pointer;
+}
+
+.navbar__btn:hover {
+  outline: 1px dotted var(--hover-color);
+  color: var(--hover-color) !important;
+}
+
+.navbar__icon {
+  width: 32px;
+  height: 32px;
+  margin-inline: 1rem;
+  cursor: pointer;
+}

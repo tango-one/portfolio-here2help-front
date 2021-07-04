@@ -1,0 +1,29 @@
+.search__wrapper {
+  padding: 2rem 1rem;
+  background-color: #faf9f9;
+  min-height: calc(100vh - 80px);
+}
+.search__wrapper > h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.search__wrapper input {
+  padding: 1.5rem 0.5rem;
+  width: 50%;
+}
+.search__wrapper input:focus {
+  box-shadow: none;
+  border-color: #ae9df8;
+}
+
+@media (max-width: 768px) {
+  .search__wrapper input {
+    width: 100%;
+  }
+}

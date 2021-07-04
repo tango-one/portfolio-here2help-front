@@ -1,0 +1,47 @@
+.list__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.list__info span {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.list_desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 500;
+}
+
+.list__btn {
+  background-color: lightblue;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  width: 90%;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.list__btn:hover {
+  background-color: var(--hover-color);
+}
+
+.ant-card-cover img {
+  max-height: 250px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.price {
+  margin-right: 40px;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 2rem;
+  background-color: #faf9f9;
+  min-height: calc(100vh - 62px);
+}
+.cart {
+  display: flex;
+  align-items: flex-start;
+  gap: 0px;
+}
+@media screen and (max-width: 576px) {
+  .wrapper {
+    padding: 1rem;
+    background-color: #faf9f9;
+    min-height: calc(100vh - 62px);
+  }
+  .cart {
+    flex-direction: column;
+  }
+}

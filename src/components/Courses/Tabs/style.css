@@ -1,0 +1,28 @@
+.tabs__wrapper {
+  padding: 2rem 1rem;
+  background-color: #faf9f9;
+  height: calc(100vh - 62px);
+}
+
+.tabs__wrapper > h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.ant-tabs-tab-btn:hover {
+  color: var(--hover-color);
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--hover-color);
+}
+
+.ant-tabs-ink-bar {
+  background-color: var(--hover-color);
+}
